@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import ArticleItem from './ArticleItem.js'
 
 class ArticleList extends Component {
-
   createItems = (arr) => {
     let newArr = [];
     arr.forEach(function(x, i){

@@ -8,7 +8,18 @@ class Landing extends Component {
   }
 
   componentDidMount(){
+    var pos = window.pageYOffset;
+    var height = window.innerHeight || window.clientHeight;
+
     window.addEventListener('scroll', this.handleScroll);
+
+    window.onresize = (event) => {
+      if((window.innerHeight % 150 > 0 && window.innerHeight % 150 < 10) || (window.innerWidth % 50 > 0 && window.innerWidth % 50 < 10) && pos < height){
+        clearInterval(this.codeWorkAnm.interval);
+        this.handleCodeCanvas();
+      }
+    };
+
     this.handleCodeCanvas();
   }
 

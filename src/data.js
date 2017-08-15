@@ -39,6 +39,11 @@ var articleData = {
       title: 'Can I Use',
       description: 'Not all web browsers have the same functionality and features, this website will help show you what works in different versions of the most widely used web browsers.',
       linkURL: 'http://caniuse.com/'
+    },
+    {
+      title: 'Codepen',
+      description: 'Codepen is a showcase of front end code.  On Codepen you can find many different projects users have developed to use as examples.  I don\'t recommend copying others code but rather learning from example and writing your own.',
+      linkURL: 'http://caniuse.com/'
     }
   ],
   tutorials: [
@@ -81,12 +86,17 @@ var articleData = {
     },
     {
       title: 'DevTips',
-      description: 'A youtube channel for web development focusing on design.',
+      description: 'A YouTube channel for web development focusing on design.',
       linkURL: 'https://www.youtube.com/user/DevTipsForDesigners'
     },
     {
       title: 'Udacity',
       description: 'Udacity offers some free online courses that provide some great information.',
+      linkURL: 'https://www.udacity.com'
+    },
+    {
+      title: 'LearnCode.academy',
+      description: 'A great YouTube channel for JavaScript, workflows, frameworks and more.',
       linkURL: 'https://www.udacity.com'
     },
     {
@@ -110,6 +120,11 @@ var articleData = {
       title: 'Pexels',
       description: 'Another site for free images that can be used for commercial and non-commercial projects.',
       linkURL: 'https://www.pexels.com/'
+    },
+    {
+      title: 'Unsplash',
+      description: 'Yet another site for free images that can be used for commercial and non-commercial projects.',
+      linkURL: 'https://www.unsplash.com/'
     },
     {
       title: 'Transparent Textures',
